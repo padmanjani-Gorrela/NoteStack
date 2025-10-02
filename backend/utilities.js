@@ -1,15 +1,22 @@
 const jwt = require('jsonwebtoken');
 
 function authenticateToken(req, res, next) {
-    const authHeader = req.headers['authorization'];
-    const token = authHeader && authHeader.split(' ')[1];
-    if (token == null) return res.sendStatus(401); // if there isn't any token
+    const authHeader = req.headers["authorization"];
+    const token = authHeader && authHeader.split(" ")[1];
 
-    jwt.verify(token, process.env.ACCESS_SECRET_TOKEN, (err, user) =>{
-        if(err) return res.sendStatus(401);
+    if (!token) {
+        return res.sendStatus(401); // No token provided
+    }
+
+    // FIXED: Standardized to use JWT_SECRET_KEY to match the rest of the app
+    jwt.verify(token, process.env.JWT_SECRET_KEY, (err, user) => {
+        if (err) {
+            return res.sendStatus(403); // Token is invalid (expired or tampered)
+        }
         req.user = user;
         next();
-    })
+    });
 }
 
 module.exports = { authenticateToken };
+
