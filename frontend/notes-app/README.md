@@ -1,17 +1,5 @@
 # NoteStack 📝  
 **Effortless Note-Taking, Perfectly Organized**  
-
-![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)  
-![Vite](https://img.shields.io/badge/Build-Vite-orange?logo=vite)  
-![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-06B6D4?logo=tailwindcss)  
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)  
-![Express.js](https://img.shields.io/badge/Framework-Express-black?logo=express)  
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)  
-![JWT](https://img.shields.io/badge/Auth-JWT-yellow?logo=jsonwebtokens)  
-![Vercel](https://img.shields.io/badge/Deploy-Frontend-black?logo=vercel)  
-![Render](https://img.shields.io/badge/Deploy-Backend-46E3B7?logo=render)  
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
-
 ---
 
 NoteStack is a modern, full-stack note-taking application designed for simplicity and efficiency. Capture your ideas on the fly, organize them with tags, and access them from anywhere.  
@@ -22,8 +10,7 @@ Built with the **MERN stack (MongoDB, Express.js, React, Node.js)** and styled w
 
 ## 🚀 Live Demo
 - **Frontend (Vercel):** [note-stack-nu.vercel.app](https://note-stack-nu.vercel.app)  
-- **Backend (Render):** *(Add your backend URL here once deployed, e.g., https://notestack-backend.onrender.com)*  
-
+- **Backend (Render):** *[ (https://notestack-bf20.onrender.com) ]
 ---
 
 ## ✨ Features
