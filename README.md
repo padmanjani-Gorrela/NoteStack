@@ -11,6 +11,7 @@ Built with the **MERN stack (MongoDB, Express.js, React, Node.js)** and styled w
 ## 🚀 Live Demo
 - **Frontend (Vercel):** [note-stack-nu.vercel.app](https://note-stack-nu.vercel.app)  
 - **Backend (Render):** *[ (https://notestack-bf20.onrender.com) ]
+- **Scroll down for webapp screenshots**
 ---
 
 ## ✨ Features
