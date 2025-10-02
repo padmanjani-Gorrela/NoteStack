@@ -22,7 +22,7 @@ app.use(express.json());
 // --- The authenticateToken function has been moved to utilities.js ---
 
 // ---------------------- DATABASE ------------------------
-mongoose.connect(process.env.CONNECTION_STRING)
+mongoose.connect(process.env.MONGODB_URI)
     .then(() => console.log("MongoDB connected"))
     .catch(err => console.error("MongoDB connection error:", err));
 
