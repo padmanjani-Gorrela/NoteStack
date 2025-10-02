@@ -1,0 +1,5 @@
+# Ignore frontend build files and backend modules
+frontend/dist
+frontend/node_modules
+backend/node_modules
+.env
