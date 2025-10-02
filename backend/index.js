@@ -76,7 +76,7 @@ app.post("/login", async (req, res) => {
         }
 
         const payload = { id: userInfo._id, email: userInfo.email };
-        const accessToken = jwt.sign(payload, process.env.ACCESS_SECRET_TOKEN, { expiresIn: '1h' });
+        const accessToken = jwt.sign(payload, process.env.JWT_SECRET_KEY, { expiresIn: '1h' });
 
         return res.status(200).json({
             error: false,
